@@ -1,13 +1,14 @@
 body {
-    font-family: tahoma;
+    font-family: tahoma, serif;
     color:#282828;
-    margin: 0px;
+    margin: 0;
 }
 
 .nav-bar {
-    background: linear-gradient(-90deg, #84CF6A, #16C0B0);
-    height: 60px;
+    background: linear-gradient(-90deg, #0099ff, #FFFFFF);
+    height: 70px;
     margin-bottom: 15px;
+    position: relative;
 }
 
 .product {
@@ -19,10 +20,20 @@ body {
 img {
     /*border: 1px solid #d8d8d8;*/
     width: 70%;
-    margin: 40px;
-    box-shadow: 0px .5px 1px #d8d8d8;
+    box-shadow: 0 .5px 1px #d8d8d8;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-
+.group_photo .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+}
 .product-image {
     width: 80%;
 }
@@ -86,4 +97,12 @@ textarea {
 .activeTab {
     color: #16C0B0;
     text-decoration: underline;
+}
+
+h1{
+    font-family: Mierb, Inter, arial, sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    padding-bottom: 32px;
+    text-align: center!important;
 }
