@@ -18,12 +18,17 @@ body {
 }
 
 img {
-    /*border: 1px solid #d8d8d8;*/
-    width: 70%;
-    box-shadow: 0 .5px 1px #d8d8d8;
+    border: 1px solid #d8d8d8;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+.group_photo {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    width: 100%;
+
 }
 .group_photo .content {
     position: absolute; /* Position the background text */
@@ -32,10 +37,6 @@ img {
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
     width: 100%; /* Full width */
-    padding: 20px; /* Some padding */
-}
-.product-image {
-    width: 80%;
 }
 
 .product-image,
@@ -99,7 +100,7 @@ textarea {
     text-decoration: underline;
 }
 
-h1{
+.title{
     font-family: Mierb, Inter, arial, sans-serif;
     font-size: 100px;
     font-weight: 900;
