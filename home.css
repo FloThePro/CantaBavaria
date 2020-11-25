@@ -89,7 +89,9 @@ textarea {
     width: 100%;
     height: 60px;
 }
-
+div {
+    box-sizing: border-box;
+}
 .tab {
     margin-left: 20px;
     cursor: pointer;
@@ -102,8 +104,8 @@ textarea {
 
 .title{
     font-family: Mierb, Inter, arial, sans-serif;
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 900;
-    padding-bottom: 32px;
+    padding-bottom: 0px;
     text-align: center!important;
 }
