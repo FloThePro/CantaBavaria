@@ -28,6 +28,7 @@ img {
     position: relative;
     max-width: 800px; /* Maximum width */
     width: 100%;
+    margin: 20px auto;
 
 }
 .group_photo .content {
